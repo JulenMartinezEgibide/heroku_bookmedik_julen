@@ -2,8 +2,7 @@
 * BookMedik Database
 * @author Evilnapsis
 */
-create database bookmedik;
-use bookmedik; 
+USE heroku_01e22a48e65ab89;
 set sql_mode='';
 create table user (
 	id int not null auto_increment primary key,
